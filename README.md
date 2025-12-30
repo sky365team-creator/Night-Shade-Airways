@@ -1,17 +1,34 @@
-# Night Shade Airways — Demo Web App
+# tentang
+website dibuat oleh
+- Conan Zulkarnain K3523023
 
+# Night Shade Airways — Demo Web App
 Quick demo full-stack PHP app (SQLite) for managing flight reservations.
 
-How to run
-- Put the `UAS` folder into your XAMPP `htdocs` (already placed at d:/xampp/htdocs/UAS).
+cara pakai
+- taruh folder `UAS` ke dalam folder `htdocs`
 - Start Apache via XAMPP control panel.
-- Open in browser: `http://localhost/UAS/`
+- buka di browser: `http://localhost/UAS/`
 
-Default admin account
+cara bikin akun
+- pergi ke registrasi
+- bikin akun dengan format `exemple@exemple.com`
+- contoh `conan@gmm.com`
+- password minimal 6 digit
+
+cara pesan tiket
+- pergi ke halaman reservasi
+- pilih layanan yg mau dipilih
+- tentukan kursi yg dipesan
+- masukan kontak berupa akun email atau no tlpn
+- tekan pesan sekarang
+- maka kode reservasi akan muncul
+
+akun admin
 - Email: `admin@nightshade.test`
 - Password: `admin123`
 
 Notes
-- Database file `data.sqlite` is auto-created on first visit.
+- file database `data.sqlite` is auto-created on first visit.
 - Assets are in `assets/` and used in the UI.
 - Payment is simulated; no real gateway integrated.
